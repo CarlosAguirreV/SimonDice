@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/imgInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:src="@drawable/ic_info" />
+
+    <TextView
+        android:id="@+id/lblSobre"
+        style="@style/Texto.AcercaCabecera"
+        android:layout_below="@+id/imgInfo"
+        android:text="@string/acerca" />
+
+    <TextView
+        android:id="@+id/lblDesarrollador"
+        style="@style/Texto.Acerca"
+        android:layout_below="@+id/lblSobre"
+        android:text="@string/desarrollador" />
+
+    <TextView
+        android:id="@+id/lblFecha"
+        style="@style/Texto.Acerca"
+        android:layout_below="@+id/lblDesarrollador"
+        android:text="@string/fechaP" />
+
+    <TextView
+        android:id="@+id/lblFechaVersion"
+        style="@style/Texto.Acerca"
+        android:layout_below="@+id/lblFecha"
+        android:text="@string/fechaMod" />
+
+    <TextView
+        android:id="@+id/lblHistoria"
+        style="@style/Texto.AcercaCabecera"
+        android:layout_below="@+id/lblFechaVersion"
+        android:text="@string/historiaTitulo" />
+
+    <TextView
+        android:id="@+id/lblHistoria2"
+        style="@style/Texto.Acerca"
+        android:layout_below="@+id/lblHistoria"
+        android:text="@string/historia" />
+
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:id="@+id/pnlBotones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnVaciar"
+            style="@style/BotonesInferiores"
+            android:drawableStart="@drawable/ic_vaciar"
+            android:text="@string/vaciar" />
+
+        <Button
+            android:id="@+id/btnEliminar"
+            style="@style/BotonesInferiores"
+            android:drawableStart="@drawable/ic_eliminar"
+            android:text="@string/vaciarTodo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pnlCabecera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pnlBotones"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/Texto.TablaRegistros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/record" />
+
+        <TextView
+            style="@style/Texto.TablaRegistros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fecha" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/listaEquipos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/pnlCabecera"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/pnlNoHayRegistros"
+        layout="@layout/vista_no_registros"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</RelativeLayout>

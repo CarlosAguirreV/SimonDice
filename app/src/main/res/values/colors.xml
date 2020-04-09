@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#1a66ff</color>
+
+    <color name="colorWhite">#FFF</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorBlackLight">#444040</color>
+    <color name="colorLightGray">#D3CCCC</color>
+    <color name="colorTurquesa">#0a9d80</color>
+    <color name="colorAmarillo">#ffff00</color>
+    <color name="colorGris">#979797</color>
+
+    <!--Colores de fondo-->
+    <color name="colorVerde">#FF15CA70</color>
+    <color name="colorAzulOscuro">#37416f</color>
+
+    <!--Colores de los botones-->
+    <color name="colorBtnVerdeEncendido">#5aff35</color>
+    <color name="colorBtnRojoEncendido">#ff1e1e</color>
+    <color name="colorBtnAmarilloEncendido">#ffea00</color>
+    <color name="colorBtnAzulEncendido">#1a66ff</color>
+
+    <color name="colorBtnVerdeApagado">#205814</color>
+    <color name="colorBtnRojoApagado">#610c0c</color>
+    <color name="colorBtnAmarilloApagado">#817701</color>
+    <color name="colorBtnAzulApagado">#0e3176</color>
+</resources>
