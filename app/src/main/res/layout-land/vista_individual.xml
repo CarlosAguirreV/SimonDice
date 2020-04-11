@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/pnlNorte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/degradado_panel_superior"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblRecord"
+                style="@style/EstiloPanelJuego.Texto"
+                android:text="@string/nada" />
+
+            <TextView
+                android:id="@+id/lblPuntos"
+                style="@style/EstiloPanelJuego.Texto"
+                android:text="@string/nada" />
+
+            <TextView
+                android:id="@+id/lblToquesRestantes"
+                style="@style/EstiloPanelJuego.Texto"
+                android:text="@string/nada" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnIndividualSalir"
+            style="@style/Texto.BotonSalirJuego"
+            android:text="@string/volver2" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/pnlCentral"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/pnlNorte"
+        android:layout_marginTop="0dp"
+        android:columnCount="2"
+        android:padding="0dp"
+        android:rowCount="2">
+
+        <Button
+            android:id="@+id/btnVerde"
+            style="@style/EstiloJuegoBoton.Verde"
+            android:text="@string/letraA" />
+
+        <Button
+            android:id="@+id/btnRojo"
+            style="@style/EstiloJuegoBoton.Rojo"
+            android:text="@string/letraB" />
+
+        <Button
+            android:id="@+id/btnAmarillo"
+            style="@style/EstiloJuegoBoton.Amarillo"
+            android:text="@string/letraC" />
+
+        <Button
+            android:id="@+id/btnAzul"
+            style="@style/EstiloJuegoBoton.Azul"
+            android:text="@string/letraD" />
+
+    </GridLayout>
+
+</RelativeLayout>
