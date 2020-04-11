@@ -48,6 +48,7 @@
     <string name="fechaMod">Version: 06/04/2020</string>
     <string name="historiaTitulo">Un poco de historia</string>
     <string name="historia">El juego de Simon fue creado por Rudolf Heinrich Baer y Howard J. Morrison en 1978.\nTuvo gran exito en la epoca de los 80.\nSu nombre se debe a otro conocido juego, Simon dice del cual he cogido el nombre para ponerle el titulo a esta version del juego.</string>
+    <string name="verCodigoFuente">Ver codigo fuente</string>
 
     <string name="despedida">¡Gracias por jugar!</string>
 </resources>

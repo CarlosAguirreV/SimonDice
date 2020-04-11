@@ -48,6 +48,7 @@
     <string name="fechaMod">Version: 04/04/2020</string>
     <string name="historiaTitulo">A bit of history</string>
     <string name="historia">Simon\'s game was created by Rudolf Heinrich Baer and Howard J. Morrison in 1978.\nIt had great success in the 1980s.\nIts name is due to another well-known game, Simon says from which I have taken the name to give the title to this version of the game.</string>
+    <string name="verCodigoFuente">View source code</string>
 
     <string name="despedida">Thanks for playing!</string>
 </resources>
