@@ -14,6 +14,7 @@ import com.example.carlos.juegosimondice.R;
 import com.example.carlos.juegosimondice.controladores.BDSQLiteRegistros;
 
 import java.util.Locale;
+import java.util.Objects;
 
 public class VistaMenuPrincipal extends AppCompatActivity {
 
@@ -24,15 +25,21 @@ public class VistaMenuPrincipal extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // En cuanto cargue esperar un poco y quitar el Splash Screen
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            Log.e("ERROR", "No se ha podido hacer sleep en el metodo onCreate de VistaMenuPrincipal");
+        }
+        setTheme(R.style.AppTheme);
+
+        // Del onCreate
         super.onCreate(savedInstanceState);
         super.setContentView(R.layout.vista_menu_principal);
 
         // Ocultar la barra superior
-        try {
-            super.getSupportActionBar().hide();
-        } catch (Exception ex) {
-            Log.e("ERROR", "El metodo hide() de la barra de accion es null");
-        }
+        Objects.requireNonNull(super.getSupportActionBar()).hide();
+
 
         // Obtener todos los elementos.
         this.btnIndividual = findViewById(R.id.btnMnuIndividual);

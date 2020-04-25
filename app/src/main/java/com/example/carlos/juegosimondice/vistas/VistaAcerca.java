@@ -69,7 +69,7 @@ public class VistaAcerca extends AppCompatActivity {
     }
 
     private void mostrarWeb(){
-        String paginaWeb = "https://github.com/CodigoBase2018/SimonDice";
+        String paginaWeb = "https://github.com/CarlosAguirreV/SimonDice";
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(paginaWeb));
         startActivity(intent);
     }

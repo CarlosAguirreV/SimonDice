@@ -5,11 +5,11 @@
 
     <string name="vaciar">Vaciar</string>
     <string name="vaciarTodo">Eliminar todo</string>
-    <string name="record">Record</string>
+    <string name="record">Récord</string>
     <string name="fecha">Fecha</string>
-    <string name="seguro">¿Estas seguro?</string>
-    <string name="advertencia1">Se borraran todos los registros excepto el mas reciente.</string>
-    <string name="advertencia2">Los datos se obtienen de los registros.\nUna vez sean borrados no se podran recuperar.</string>
+    <string name="seguro">¿Estás seguro?</string>
+    <string name="advertencia1">Se borrarán todos los registros excepto el más reciente.</string>
+    <string name="advertencia2">Los datos se obtienen de los registros.\nUna vez sean borrados no se podrán recuperar.</string>
     <string name="si">Si</string>
     <string name="no">No</string>
 
@@ -20,7 +20,7 @@
     <string name="acerca">Acerca de</string>
     <string name="salir">Salir</string>
     <string name="volver2">Volver</string>
-    <string name="tuRecord">Tu record</string>
+    <string name="tuRecord">Tu récord</string>
 
     <string name="verde">Verde</string>
     <string name="rojo">Rojo</string>
@@ -31,23 +31,23 @@
     <string name="letraC">C</string>
     <string name="letraD">D</string>
     <string name="volver">¿Volver al menu?</string>
-    <string name="volverMensaje">Perderas tu progreso.</string>
+    <string name="volverMensaje">Perderás tu progreso.</string>
     <string name="finJuego">Fin del juego</string>
     <string name="puntos">Puntos</string>
     <string name="toquesRestantes">Toques restantes</string>
     <string name="hasAcertado">¡¡Has acertado!!</string>
     <string name="aceptar">Aceptar</string>
-    <string name="prestaAtencion">Presta atencion a la combinacion.</string>
+    <string name="prestaAtencion">Presta atención a la combinación.</string>
     <string name="tocaba">Tocaba</string>
     <string name="peroPulsaste">pero pulsaste</string>
-    <string name="nuevoRecord">Has batido un nuevo record</string>
+    <string name="nuevoRecord">Has batido un nuevo récord</string>
     <string name="jugarDeNuevo">¿Deseas jugar de nuevo?</string>
 
     <string name="desarrollador">Desarrollador: Carlos Aguirre</string>
     <string name="fechaP">Primera publicacion: 07/06/2019</string>
-    <string name="fechaMod">Version: 06/04/2020</string>
+    <string name="fechaMod">Version: 16/04/2020</string>
     <string name="historiaTitulo">Un poco de historia</string>
-    <string name="historia">El juego de Simon fue creado por Rudolf Heinrich Baer y Howard J. Morrison en 1978.\nTuvo gran exito en la epoca de los 80.\nSu nombre se debe a otro conocido juego, Simon dice del cual he cogido el nombre para ponerle el titulo a esta version del juego.</string>
+    <string name="historia">Esta APP es una versión digital inspirada en el juego de "Simón dice" fue creado por Rudolf Heinrich Baer y Howard J. Morrison en 1978.\nObtuvo un gran éxito en la época de los 80. Su nombre se debe a otro conocido juego tradicional llamado así.</string>
     <string name="verCodigoFuente">Ver codigo fuente</string>
 
     <string name="despedida">¡Gracias por jugar!</string>

@@ -4,23 +4,23 @@
     <string name="nada">#</string>
 
     <string name="vaciar">Empty</string>
-    <string name="vaciarTodo">Remove all</string>
-    <string name="record">Record</string>
+    <string name="vaciarTodo">Remove everything</string>
+    <string name="record">Score</string>
     <string name="fecha">Date</string>
     <string name="seguro">Are you sure?</string>
-    <string name="advertencia1">All records except the most recent will be deleted.</string>
-    <string name="advertencia2">The data is obtained from the records.\nOnce they are deleted, they cannot be recovered.</string>
+    <string name="advertencia1">All scores will be deleted but the most recent.</string>
+    <string name="advertencia2">Data is collected from the scores.\nIf they are deleted, it will be impossible to recover them.</string>
     <string name="si">Yes</string>
     <string name="no">No</string>
 
-    <string name="noRegistros">There are no records to show</string>
+    <string name="noRegistros">There are no scores to display</string>
 
     <string name="jugar">Play</string>
-    <string name="verR">Show records</string>
+    <string name="verR">Display scores</string>
     <string name="acerca">About</string>
     <string name="salir">Exit</string>
-    <string name="volver2">Go back</string>
-    <string name="tuRecord">Your record</string>
+    <string name="volver2">Back</string>
+    <string name="tuRecord">Your high score</string>
 
     <string name="verde">Green</string>
     <string name="rojo">Red</string>
@@ -30,24 +30,24 @@
     <string name="letraB">B</string>
     <string name="letraC">C</string>
     <string name="letraD">D</string>
-    <string name="volver">Back to menu?</string>
-    <string name="volverMensaje">You will lose your progress.</string>
+    <string name="volver">Back to main menu?</string>
+    <string name="volverMensaje">You will lose your current progress.</string>
     <string name="finJuego">Game over</string>
-    <string name="puntos">Game points</string>
+    <string name="puntos">Scores</string>
     <string name="toquesRestantes">Remaining touches</string>
-    <string name="hasAcertado">Right!!</string>
+    <string name="hasAcertado">You got it right!!</string>
     <string name="aceptar">Accept</string>
-    <string name="prestaAtencion">Look at the combination.</string>
+    <string name="prestaAtencion">Look at the sequence.</string>
     <string name="tocaba">It was</string>
     <string name="peroPulsaste">but you pressed</string>
-    <string name="nuevoRecord">New record</string>
+    <string name="nuevoRecord">New high score</string>
     <string name="jugarDeNuevo">Do you want to play again?</string>
 
     <string name="desarrollador">Developer: Carlos Aguirre</string>
     <string name="fechaP">First publication: 07/06/2019</string>
-    <string name="fechaMod">Version: 04/04/2020</string>
+    <string name="fechaMod">Version: 16/04/2020</string>
     <string name="historiaTitulo">A bit of history</string>
-    <string name="historia">Simon\'s game was created by Rudolf Heinrich Baer and Howard J. Morrison in 1978.\nIt had great success in the 1980s.\nIts name is due to another well-known game, Simon says from which I have taken the name to give the title to this version of the game.</string>
+    <string name="historia">This APP is a digital version inspired by the "Simon says" game, which was created by Rudolf Heinrich Baer y Howard J. Morrison in 1978.\nIt had a great success in the 1980s. Its name is due to another well-known traditional game called "Simon says" too.</string>
     <string name="verCodigoFuente">View source code</string>
 
     <string name="despedida">Thanks for playing!</string>

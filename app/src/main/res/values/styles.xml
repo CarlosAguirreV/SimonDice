@@ -9,16 +9,21 @@
         <item name="android:splitMotionEvents">false</item>
     </style>
 
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+
     <!--Estilos del menu principal-->
     <style name="EstiloBotonesMenu" parent="@android:style/TextAppearance.Medium">
-        <item name="android:textSize">24dp</item>
+        <item name="android:textSize">24sp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:layout_marginBottom">10dp</item>
         <item name="android:paddingStart">25dp</item>
         <item name="android:paddingEnd">25dp</item>
-        <item name="android:fontFamily">@font/bayu_prahara2_reguler</item>
+        <item name="android:fontFamily">@font/bayu_prahara2</item>
         <item name="android:drawablePadding">10dp</item>
         <item name="android:padding">12dp</item>
         <item name="android:background">@drawable/btn_normal</item>
@@ -29,21 +34,21 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/colorBlack</item>
         <item name="android:gravity">center</item>
-        <item name="android:fontFamily">@font/bayu_prahara2_reguler</item>
+        <item name="android:fontFamily">@font/bayu_prahara2</item>
     </style>
 
     <style name="EstiloTextoMenu.Record">
-        <item name="android:textSize">24dp</item>
+        <item name="android:textSize">24sp</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <!--Estilos del panel superior del juego-->
     <style name="EstiloPanelJuego">
-        <item name="android:textSize">17dp</item>
+        <item name="android:textSize">17sp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:textStyle">bold</item>
         <item name="textAllCaps">false</item>
-        <item name="android:fontFamily">@font/bayu_prahara2_reguler</item>
+        <item name="android:fontFamily">@font/bayu_prahara2</item>
     </style>
 
     <style name="EstiloPanelJuego.Texto">
@@ -59,7 +64,7 @@
     </style>
 
     <style name="EstiloPanelJuego.Boton">
-        <item name="android:textSize">24dp</item>
+        <item name="android:textSize">24sp</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:textStyle">bold</item>
         <item name="android:layout_margin">5dp</item>
@@ -69,7 +74,7 @@
     <style name="EstiloJuegoBoton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">100dp</item>
+        <item name="android:textSize">100sp</item>
         <item name="android:textColor">@color/colorWhite</item>
     </style>
 
@@ -111,7 +116,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:fontFamily">@font/bayu_prahara2_reguler</item>
+        <item name="android:fontFamily">@font/bayu_prahara2</item>
         <item name="android:textAllCaps">false</item>
     </style>
 
@@ -132,7 +137,7 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:fontFamily">@font/bayu_prahara2_reguler</item>
+        <item name="android:fontFamily">@font/bayu_prahara2</item>
     </style>
 
     <style name="Texto.TablaRegistros">
