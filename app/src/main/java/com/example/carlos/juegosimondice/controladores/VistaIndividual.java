@@ -1,10 +1,8 @@
-package com.example.carlos.juegosimondice.vistas;
+package com.example.carlos.juegosimondice.controladores;
 
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.media.AudioAttributes;
-import android.media.AudioManager;
 import android.media.SoundPool;
 import android.os.Bundle;
 import android.os.SystemClock;
@@ -17,7 +15,8 @@ import android.widget.GridLayout;
 import android.widget.TextView;
 
 import com.example.carlos.juegosimondice.R;
-import com.example.carlos.juegosimondice.controladores.JuegoIndividual;
+
+import java.util.Objects;
 
 public class VistaIndividual extends AppCompatActivity implements InterfazVista {
 
@@ -54,10 +53,10 @@ public class VistaIndividual extends AppCompatActivity implements InterfazVista 
         coleccionAudios[4] = soundPool.load(this, R.raw.fin, 1);
 
 
-        // Ocultar la barra superior.
-        super.getSupportActionBar().hide();
+        // Ocultar la barra superior si no es null
+        Objects.requireNonNull(super.getSupportActionBar()).hide();
 
-        // Obtener todos los elementos.
+        // Obtener todos los elementos
         this.lblRecord = findViewById(R.id.lblRecord);
         this.lblPuntos = findViewById(R.id.lblPuntos);
         this.lblToquesRestantes = findViewById(R.id.lblToquesRestantes);
@@ -77,17 +76,23 @@ public class VistaIndividual extends AppCompatActivity implements InterfazVista 
         this.coleccionBotones[3] = this.btnAzul;
 
 
-        // Crear el controlador de JuegoIndividual.
+        // Crear el controlador de JuegoIndividual
         this.CONTROLADOR = new JuegoIndividual(this);
 
-        // Controlar eventos.
+        // Controlar eventos
         this.eventos();
 
-        // Bloquear los botones la primera vez.
+        // Bloquear los botones la primera vez
         this.bloquearBotones(true, true);
 
         // Empezar
         this.CONTROLADOR.reiniciar();
+    }
+
+    // Lo que sucedera al pulsar el boton atras de la barra de navegacion
+    @Override
+    public void onBackPressed() {
+        crearDialogoSalir();
     }
 
     @Override
@@ -153,7 +158,7 @@ public class VistaIndividual extends AppCompatActivity implements InterfazVista 
     }
 
     private void tocarNota(byte nota) {
-        soundPool.play(coleccionAudios[nota], 1, 1, 0, 0, 1f);
+        soundPool.play(coleccionAudios[nota], 1f, 1f, 0, 0, 1f);
     }
 
     // Crea y muestra un cuadro de dialogo que pide confirmación para pulsadoSalir.

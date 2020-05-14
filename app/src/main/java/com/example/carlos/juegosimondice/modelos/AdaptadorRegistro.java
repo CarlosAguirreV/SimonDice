@@ -1,16 +1,13 @@
-package com.example.carlos.juegosimondice.controladores;
+package com.example.carlos.juegosimondice.modelos;
 
 import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.carlos.juegosimondice.R;
-import com.example.carlos.juegosimondice.modelos.POJOindividual;
 
 import java.util.ArrayList;
 import java.util.List;

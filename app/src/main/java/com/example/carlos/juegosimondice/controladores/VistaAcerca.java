@@ -1,4 +1,4 @@
-package com.example.carlos.juegosimondice.vistas;
+package com.example.carlos.juegosimondice.controladores;
 
 import android.content.Intent;
 import android.net.Uri;

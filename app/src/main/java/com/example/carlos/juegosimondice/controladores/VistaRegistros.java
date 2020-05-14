@@ -1,4 +1,4 @@
-package com.example.carlos.juegosimondice.vistas;
+package com.example.carlos.juegosimondice.controladores;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -14,8 +14,8 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.carlos.juegosimondice.R;
-import com.example.carlos.juegosimondice.controladores.AdaptadorRegistro;
-import com.example.carlos.juegosimondice.controladores.BDSQLiteRegistros;
+import com.example.carlos.juegosimondice.modelos.AdaptadorRegistro;
+import com.example.carlos.juegosimondice.modelos.BDSQLiteRegistros;
 import com.example.carlos.juegosimondice.modelos.POJOindividual;
 
 import java.util.ArrayList;

@@ -1,11 +1,9 @@
-package com.example.carlos.juegosimondice.controladores;
+package com.example.carlos.juegosimondice.modelos;
 
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-
-import com.example.carlos.juegosimondice.modelos.POJOindividual;
 
 import java.util.ArrayList;
 

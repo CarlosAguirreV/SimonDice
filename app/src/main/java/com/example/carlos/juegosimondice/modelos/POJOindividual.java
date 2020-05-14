@@ -1,8 +1,6 @@
 package com.example.carlos.juegosimondice.modelos;
 
-import java.time.LocalDate;
 import java.util.Calendar;
-import java.util.Locale;
 
 /**
  * Clase POJO que representa un registro del modo individual.

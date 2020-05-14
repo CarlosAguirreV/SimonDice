@@ -1,4 +1,4 @@
-package com.example.carlos.juegosimondice.vistas;
+package com.example.carlos.juegosimondice.controladores;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,10 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.carlos.juegosimondice.R;
-import com.example.carlos.juegosimondice.controladores.BDSQLiteRegistros;
+import com.example.carlos.juegosimondice.modelos.BDSQLiteRegistros;
 
 import java.util.Locale;
 import java.util.Objects;
@@ -115,14 +114,9 @@ public class VistaMenuPrincipal extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 animarBoton(btnSalir);
-                mostrarMensajeDespedida();
                 VistaMenuPrincipal.this.finish();
             }
         });
-    }
-
-    private void mostrarMensajeDespedida() {
-        Toast.makeText(this, R.string.despedida, Toast.LENGTH_SHORT).show();
     }
 
     private void animarBoton(final Button boton) {

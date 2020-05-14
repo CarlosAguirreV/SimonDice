@@ -1,13 +1,9 @@
 package com.example.carlos.juegosimondice.controladores;
 
-import android.content.Context;
-import android.content.res.Resources;
-
 import com.example.carlos.juegosimondice.R;
+import com.example.carlos.juegosimondice.modelos.BDSQLiteRegistros;
 import com.example.carlos.juegosimondice.modelos.POJOindividual;
-import com.example.carlos.juegosimondice.vistas.VistaIndividual;
 
-import java.util.ArrayList;
 import java.util.Random;
 
 /**

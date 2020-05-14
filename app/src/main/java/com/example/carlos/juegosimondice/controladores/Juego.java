@@ -1,7 +1,5 @@
 package com.example.carlos.juegosimondice.controladores;
 
-import com.example.carlos.juegosimondice.R;
-
 import java.util.ArrayList;
 
 /**

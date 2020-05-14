@@ -43,12 +43,10 @@
     <string name="nuevoRecord">Has batido un nuevo récord</string>
     <string name="jugarDeNuevo">¿Deseas jugar de nuevo?</string>
 
-    <string name="desarrollador">Desarrollador: Carlos Aguirre</string>
+    <string name="desarrollador">Desarrollador: Carlos Aguirre \nTraductor: T.P.V.</string>
     <string name="fechaP">Primera publicacion: 07/06/2019</string>
     <string name="fechaMod">Version: 16/04/2020</string>
     <string name="historiaTitulo">Un poco de historia</string>
     <string name="historia">Esta APP es una versión digital inspirada en el juego de "Simón dice" fue creado por Rudolf Heinrich Baer y Howard J. Morrison en 1978.\nObtuvo un gran éxito en la época de los 80. Su nombre se debe a otro conocido juego tradicional llamado así.</string>
     <string name="verCodigoFuente">Ver codigo fuente</string>
-
-    <string name="despedida">¡Gracias por jugar!</string>
 </resources>
