@@ -20,7 +20,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="15dp"
-                android:src="@drawable/ic_info" />
+                android:src="@drawable/ic_info"
+                android:contentDescription="@string/acerca" />
 
             <TextView
                 android:id="@+id/lblSobre"
@@ -53,7 +54,6 @@
                 android:text="@string/historiaTitulo" />
 
             <TextView
-                android:id="@+id/lblHistoria2"
                 style="@style/Texto.Acerca"
                 android:layout_below="@+id/lblHistoria"
                 android:text="@string/historia" />
