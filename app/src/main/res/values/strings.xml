@@ -43,10 +43,10 @@
     <string name="nuevoRecord">New high score</string>
     <string name="jugarDeNuevo">Do you want to play again?</string>
 
-    <string name="desarrollador">Developer: Carlos Aguirre \nTranslator: T.P.V.</string>
+    <string name="desarrollador">Developer: Carlos Aguirre \nTranslator: T.P.V. and Amaya</string>
     <string name="fechaP">First publication: 07/06/2019</string>
     <string name="fechaMod">Version: 16/04/2020</string>
     <string name="historiaTitulo">A bit of history</string>
-    <string name="historia">This APP is a digital version inspired by the "Simon says" game, which was created by Rudolf Heinrich Baer y Howard J. Morrison in 1978.\nIt had a great success in the 1980s. Its name is due to another well-known traditional game called "Simon says" too.</string>
+    <string name="historia">This APP is a digital version inspired by the "Simon says" game, which was created by Rudolf Heinrich Baer y Howard J. Morrison in 1978.\nIt was a great success in the 1980s. Its name is due to another well-known traditional game called "Simon says" too.</string>
     <string name="verCodigoFuente">View source code</string>
 </resources>
