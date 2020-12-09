@@ -19,13 +19,13 @@ import com.example.carlos.juegosimondice.modelos.BDSQLiteRegistros;
 import com.example.carlos.juegosimondice.modelos.POJOindividual;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class VistaRegistros extends AppCompatActivity {
 
     private BDSQLiteRegistros controlBD;
     private Button btnVaciar, btnEliminar, btnVolver;
     private View pnlNoHayRegistros;
-    private TextView titulo;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -33,7 +33,7 @@ public class VistaRegistros extends AppCompatActivity {
         setContentView(R.layout.vista_registros);
 
         // Inflar (incluir) la barra de accion personalizada.
-        super.getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        Objects.requireNonNull(super.getSupportActionBar()).setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         this.getSupportActionBar().setCustomView(R.layout.barra_superior);
 
         // Obtener todos los elementos.
@@ -41,8 +41,8 @@ public class VistaRegistros extends AppCompatActivity {
         this.btnEliminar = findViewById(R.id.btnEliminar);
         this.btnVolver = findViewById(R.id.btnVolver);
         this.pnlNoHayRegistros = findViewById(R.id.pnlNoHayRegistros);
-        this.titulo = findViewById(R.id.tituloBarra);
-        this.titulo.setText("Ver registros");
+        TextView titulo = findViewById(R.id.tituloBarra);
+        titulo.setText(R.string.verR);
 
         // Cargar los records de la BD.
         this.controlBD = new BDSQLiteRegistros(this);
